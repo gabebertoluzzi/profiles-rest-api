@@ -3,5 +3,4 @@ from django.contrib import admin
 from profiles_api import models
 
 admin.site.register(models.UserProfile)
-
-# Done.
+admin.site.register(models.ProfileFeedItem)
